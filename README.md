@@ -63,6 +63,8 @@ This application is a game between the user and a bot. It is based on conditiona
 
 #### Code
   The working is done in the [controller](Project/src/sample/Controller.java). Most of the events are trigered by sending a message(sendButton), from here various functions are called.
+  
+  Pls look at these 3 [files](Project/src/sample/) for the code. 
 
 [Back To The Top](#Chatbot-Java--Phase1)
 
