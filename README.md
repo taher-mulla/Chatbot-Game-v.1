@@ -1,7 +1,6 @@
 # Chatbot-Java--Phase1
 
-![Project Image](project-image-url)
-Need to add the video here
+![Project Image](ChatbotPhase1NoAudio.gif)
 
 > This is a rudimentary chatbot game using Java, it is based on conditional logic i.e. 'if' stateents. This phase dose not use any NPL.
 
@@ -10,7 +9,7 @@ Need to add the video here
 ### Table of Contents
 
 - [Description](#description)
-- [How To Use](#working)
+- [Working](#working)
 - [Inprovements](#inprovements)
 - [Data Source](#data-source)
 - [Author Info](#author-info)
@@ -19,7 +18,7 @@ Need to add the video here
 
 ## Description
 
-This application is a game between the user and a bot. It is based on conditional stateents, however the progra will accpet different ways of affermative statements etc. I am using a data base that has the movie name and character name in a .txt file. The questions and answers are taken from here.
+This application is a game between the user and a bot. It is based on conditional statements, however the program will accpet different ways of affermative statements etc. I am using a data base that has the movie name and character name in a .txt file. The questions and answers are taken from here.
 
 #### Technologies
 
@@ -34,19 +33,21 @@ This application is a game between the user and a bot. It is based on conditiona
 
 ## Working
 
-### [Data Base](Project/cornell movie-dialogs corpus/movie_characters_metadata.txt)
+### Data Base
 
-This is a .txt file with involves 9,035 characters from 617 movies. 
+The file is a .txt file with involves 9,035 characters from 617 movies. 
 - character metadata included:
 	- gender (for 3,774 characters)
 	- position on movie credits (3,321 characters)
 
--Data Preprocessing 
+[Data File](Project/cornell movie-dialogs corpus/movie_characters_metadata.txt)
+
+-Data Pre-processing 
 	
-The original delimiter used was ' +++$+++ '. This delimiter could not be used as the split function uses regular expressions, and could not accpet this. 	The delimiter was changed to ';'.
+The original delimiter used was ' +++$+++ '. This delimiter could not be used as the split function uses regular expressions, and could not accept this. 	The delimiter was changed to ';'
 
 ### User Interface 
-The user interface is ade using JavaFX. The top level is a BorderPane, we use the top, center and bottom of this view in the interface. 
+The user interface is made using JavaFX. The top level is a BorderPane, we use the top, center and bottom of this view in the interface. 
 
 - Top
 
@@ -54,22 +55,22 @@ The user interface is ade using JavaFX. The top level is a BorderPane, we use th
 
 - Center 
 
-	The TextArea here is appended here every time the bot or used sends a message.
+	The TextArea here isused for the conversation messages, it is appended here every time the bot or used sends a message.
 
 - Bottom
 
  	Here a BorderPane is used with a TextField and  Button. 
 
 ### Code
-Most of the working is done in the [controller](Project/src/sample/Controller.java). Most of the events are trigered by sending a message(sendButton), from here various functions are called.
+The working is done in the [controller](Project/src/sample/Controller.java). Most of the events are trigered by sending a message(sendButton), from here various functions are called.
 
-[Back To The Top](# Chatbot-Java--Phase1)
+[Back To The Top](#Chatbot-Java--Phase1)
 
 ---
 
 ## Inprovements
 
-The user experience can be further improved. This can be done by increasing the accpeted affermative and negative stateents. Further we can also have multiple statements that the bot uses for corect or wrong answers in an array, this can then be randomly be used to create a better conversation. Lastly the UI can be improved to include shortcuts like 'Enter Button' to send. 
+The user experience can be further improved. This can be done by increasing the accpeted affermative and negative statements. Further we can also have multiple statemenst that the bot uses for correct or wrong answers in an array, this can then be randomly be used to create a better conversation. Lastly the UI can be improved to include shortcuts like 'Enter Button' to send. 
 
 [Back To The Top](# Chatbot-Java--Phase1)
 
@@ -77,16 +78,18 @@ The user experience can be further improved. This can be done by increasing the 
 
 ## Data Source
 
-[Here](https://www.kaggle.com/fungusamongus/chatbot-data)
+The data was taken from Kaggle and can be found [Here.](https://www.kaggle.com/fungusamongus/chatbot-data)
 
-[Back To The Top](# Chatbot-Java--Phase1)
+[Back To The Top](#Chatbot-Java--Phase1)
 
 ---
 
 ## Author Info
 
-Linkdin - [link](www.linkedin.com/in/taher-mulla-8b9546136) 
-GitHub - [link](https://github.com/taher-mulla)
-Email - taher.mulla@gmail.co
+ - [Linkdin](www.linkedin.com/in/taher-mulla-8b9546136) 
 
-[Back To The Top](# Chatbot-Java--Phase1)
+ - [GitHub](https://github.com/taher-mulla)
+
+ - Email - taher.mulla@gmail.co
+
+[Back To The Top](#Chatbot-Java--Phase1)
