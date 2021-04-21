@@ -1,4 +1,4 @@
-# Chatbot-Java--Phase1
+# Chatbot Java - Phase1
 
 ![Project Image](ChatbotPhase1NoAudio.gif)
 
@@ -33,7 +33,7 @@ This application is a game between the user and a bot. It is based on conditiona
 
 ## Working
 
-### Data Base
+#### Data Base
 
   The file is a .txt file with involves 9,035 characters from 617 movies. 
   - character metadata included:
@@ -46,7 +46,7 @@ This application is a game between the user and a bot. It is based on conditiona
 	
   The original delimiter used was ' +++$+++ '. This delimiter could not be used as the split function uses regular expressions, and could not accept this. The delimiter was changed to ';'
 
-### User Interface 
+#### User Interface 
   The user interface is made using JavaFX. The top level is a BorderPane, we use the top, center and bottom of this view in the interface. 
 
   - Top
@@ -61,7 +61,7 @@ This application is a game between the user and a bot. It is based on conditiona
 
  	  Here a BorderPane is used with a TextField and  Button. 
 
-### Code
+#### Code
   The working is done in the [controller](Project/src/sample/Controller.java). Most of the events are trigered by sending a message(sendButton), from here various functions are called.
 
 [Back To The Top](#Chatbot-Java--Phase1)
