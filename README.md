@@ -28,7 +28,7 @@ This application is a game between the user and a bot. It is based on conditiona
 - JavaNIO
 - Basic Java
 
-[Back To The Top](#chatbot-java-v.1)
+[Back To The Top](#chatbot-java-v1)
 
 ---
 
@@ -67,7 +67,7 @@ This application is a game between the user and a bot. It is based on conditiona
   
   Pls look at these 3 [files](Project/src/sample/) for the code. 
 
-[Back To The Top](#chatbot-Java-v.1)
+[Back To The Top](#chatbot-Java-v1)
 
 ---
 
@@ -83,7 +83,7 @@ The user experience can be further improved. This can be done by increasing the 
 
 The data was taken from Kaggle and can be found [here.](https://www.kaggle.com/fungusamongus/chatbot-data)
 
-[Back To The Top](#Chatbot-Java--Phase1)
+[Back To The Top](#Chatbot-Java-v1)
 
 ---
 
@@ -111,7 +111,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[Back To The Top](#Chatbot-Java-v.1)
+[Back To The Top](#Chatbot-Java-v1)
 
 ---
 
@@ -123,4 +123,4 @@ SOFTWARE.
 
  - Email - taher.mulla@gmail.co
 
-[Back To The Top](#chatbot-java-v.1)
+[Back To The Top](#chatbot-java-v1)
