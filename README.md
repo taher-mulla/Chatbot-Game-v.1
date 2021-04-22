@@ -28,7 +28,7 @@ This application is a game between the user and a bot. It is based on conditiona
 - JavaNIO
 - Basic Java
 
-[Back To The Top](#Chatbot-Java--Phase1)
+[Back To The Top](#chatbot-java-v.1)
 
 ---
 
@@ -67,7 +67,7 @@ This application is a game between the user and a bot. It is based on conditiona
   
   Pls look at these 3 [files](Project/src/sample/) for the code. 
 
-[Back To The Top](#Chatbot-Java--Phase1)
+[Back To The Top](#chatbot-Java-v.1)
 
 ---
 
@@ -75,7 +75,7 @@ This application is a game between the user and a bot. It is based on conditiona
 
 The user experience can be further improved. This can be done by increasing the accepted affirmative and negative statements. Further, we can also have multiple statements that the bot uses for correct or wrong answers in an array, this can then be randomly be used to create a better conversation. Lastly, the UI can be improved to include shortcuts like 'Enter Button' to send. 
 
-[Back To The Top](#Chatbot-Java--Phase1)
+[Back To The Top](#Chatbot-Java-v.1)
 
 ---
 
@@ -111,7 +111,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[Back To The Top](#Chatbot-Java--Phase1)
+[Back To The Top](#Chatbot-Java-v.1)
 
 ---
 
@@ -123,4 +123,4 @@ SOFTWARE.
 
  - Email - taher.mulla@gmail.co
 
-[Back To The Top](#Chatbot-Java--Phase1)
+[Back To The Top](#chatbot-java-v.1)
