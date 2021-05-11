@@ -1,4 +1,4 @@
-# Chatbot Java v.1
+# Chatbot v.1
 
 ![Project Image](ChatbotPhase1NoAudio.gif)
 
