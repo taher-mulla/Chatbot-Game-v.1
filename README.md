@@ -1,4 +1,4 @@
-# Chatbot v.1
+# Chatbot Game v.1
 
 ![Project Image](ChatbotPhase1NoAudio.gif)
 
